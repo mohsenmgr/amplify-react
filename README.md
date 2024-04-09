@@ -1,9 +1,9 @@
-# React + Vite
+# Pet App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instructions
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# amplify-react
+In case the project is removed from the AWS cloud (S3 Bucket) save the schema.graphql file and then remove the amplify folder completely.
+Use `amplify init` to initialize a new amplify project.
+add the api again with `amplify add api`, during the setup use the graphql file contents from the previous steps.
+In case the project is not using cognito user pools, run `amplify add auth` or in case you have it check it again with `amplify update auth`
+Make sure that the api is using cognito authorizations by checking `amplify api update`

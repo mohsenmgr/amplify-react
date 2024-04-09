@@ -7,7 +7,7 @@
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "myfrontendfa087e87"
+          "resourceName": "myfrontend1730bdd5"
         }
       ],
       "output": {
@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authmyfrontendfa087e87"
+              "userPoolId": "authmyfrontend1730bdd5"
             }
           }
         }
@@ -26,7 +26,7 @@
     }
   },
   "auth": {
-    "myfrontendfa087e87": {
+    "myfrontend1730bdd5": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
